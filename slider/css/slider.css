@@ -52,7 +52,7 @@
    text-align: center;
 }
 
-.slider  h1,
+.slider h2,
 .slider p{
    font-family: 'SEGOEUI', sans-serif;
    text-shadow: 2px 2px 2px #000;
@@ -61,7 +61,7 @@
    opacity: 0;
 }
 
-.slider .slider_content h1{
+.slider .slider_content h2{
    font-size: 3.5em;
    color: #fff;
    text-transform: uppercase;
@@ -87,7 +87,7 @@
    transition-delay: 0.8s;
 }
 
-.slider .active h1,
+.slider .active h2,
 .slider .active p{
    top: 0;
    opacity:1;	
@@ -134,7 +134,7 @@
       padding-left: 10%;
       padding-right: 10%;
   }
-  .slider .slider_content h1{
+  .slider .slider_content h2{
       font-size: 3em;
   }
   .slider .slider_content p{
@@ -159,7 +159,7 @@
       padding-right: 5%;
       padding-top: 105px;
   }
-  .slider .slider_content h1{
+  .slider .slider_content h2{
       font-size: 2em;
   }
   .slider .slider_content p{
@@ -183,7 +183,7 @@
       padding-right: 5%;
       padding-top: 80px;
   }
-  .slider .slider_content h1{
+  .slider .slider_content h2{
       font-size: 2em;
   }
   .slider .slider_content p{

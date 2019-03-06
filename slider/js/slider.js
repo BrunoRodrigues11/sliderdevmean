@@ -3,7 +3,7 @@
 	// DEFINE BACKGROUND DO SLIDE
 	(function($){
 		$('.slider_item').each(function(){
-			var sliderBg = $(this).attr('slider-bg');
+			var sliderBg = $(this).data('slider-bg');
 			$(this).css({'background-image': 'url('+sliderBg+')'});
 		});
 	}(jQuery));
